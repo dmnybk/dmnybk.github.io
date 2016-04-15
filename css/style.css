@@ -1,0 +1,197 @@
+body {
+	width: 100%;
+	background: #414142;
+}
+
+#container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#menu {
+	background: #ed217c;
+	padding: 1em;
+}
+
+nav li {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	display: inline;
+	text-decoration: none;
+	color: #ffffff;
+	letter-spacing: 0;
+	font-size: 2vw;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#header {
+	background: #414142;
+	width: 100%;
+	overflow: auto;
+}
+
+.logo {
+	display: inline;
+	float: left;
+	margin: 5em 0 5em 0em;
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 400;
+}
+
+.logoTop {
+/*	font-family: "Roboto Mono", sans-serif;
+	font-weight: 400;
+*/	font-style: italic;
+	font-size: 5.2vw;
+	color: #008dc1;
+	letter-spacing: .7vw;
+}
+
+.logoBottom {
+/*	font-family: "Roboto Mono", sans-serif;
+	font-weight: 400;
+*/	font-style: italic;
+	font-size: 9.6vw;
+	color: #008dc1;
+	letter-spacing: .1em;
+}
+
+#robot {
+	display: inline;
+	float: left;
+	max-width: 100%;
+	width: 25%;
+	margin: 2em 0 0 1em;
+}
+
+#pinkPlanet {
+	display: inline;
+	float: right;
+	width: 25%;
+	margin: 4em 0 0 0;
+/*	position: fixed;
+*/}
+
+#slowStarHeader {
+	background-image: url("../../images/desktop/slowStarsHeader.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#whatwedo {
+	background: #008dc1;
+	width: 100%;
+	overflow: auto;
+}
+
+.wedo {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+	color: #ffffff;
+	margin: 0 2em 2em 5.5em;
+}
+
+#orangePlanet {
+	display: inline;
+	width: 30%;
+	float: right;
+}
+
+h3 {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 4vw;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 1em 0 .5em 2em;
+	padding-top: .5em;
+}
+
+#workholder {
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 5%;
+}
+
+.workex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#ourwork p {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+	color: #ffffff;
+}
+
+#ourwork h4 {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 2.5vw;
+	color: #ffffff;
+	margin-bottom: 8%;
+}
+
+#ourwork img {
+	border: .2em solid #008dc1;
+	border-radius: 90px;
+	width: 60%;
+	display: inline;
+	margin-bottom: 10%;
+}
+
+#aboutus {
+	background: #008dc1;
+	width: 100%;
+/*	overflow: auto;
+*/}
+
+.about {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+	color: #ffffff;
+	margin: 5% 5% 0 40%;
+	display: inline;
+}
+
+#aboutus h3 {
+	display: inline;
+	margin-left: 40%;
+}
+
+#aboutus img {
+	width: 40%;
+	display: inline;
+	float: left;
+}
+
+
+
+/*.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}*/

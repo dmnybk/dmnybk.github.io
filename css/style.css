@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	background: #414142;
+	padding-top: 50px;
 }
 
 #container {
@@ -10,12 +11,14 @@ body {
 	background-position: top; 
 }
 
-#container data-image-src {
-
-}
-
 #menu {
 	background: #ed217c;
+	width: 90%;
+	position: fixed;
+	top: 0;
+}
+
+nav {
 	padding: 1em;
 }
 
@@ -68,13 +71,12 @@ a {
 #robot {
 	display: inline;
 	float: left;
-	max-width: 100%;
 	width: 25%;
 	margin: 2em 0 0 1em;
 }
 
 #pinkPlanet {
-	display: inline;
+	display: inline-block;
 	float: right;
 	width: 25%;
 	margin: 4em 0 0 0;

@@ -6,6 +6,12 @@ body {
 #container {
 	margin: 0 auto;
 	width: 90%;
+	overflow: auto;
+	background-position: top; 
+}
+
+#container data-image-src {
+
 }
 
 #menu {
@@ -29,7 +35,6 @@ a {
 }
 
 #header {
-	background: #414142;
 	width: 100%;
 	overflow: auto;
 }
@@ -73,17 +78,10 @@ a {
 	float: right;
 	width: 25%;
 	margin: 4em 0 0 0;
-/*	position: fixed;
-*/}
-
-#slowStarHeader {
-	background-image: url("../../images/desktop/slowStarsHeader.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
 }
 
 #whatwedo {
-	background: #008dc1;
+	background: rgba(0, 96, 132, .8);
 	width: 100%;
 	overflow: auto;
 }
@@ -149,23 +147,23 @@ h3 {
 }
 
 #aboutus {
-	background: #008dc1;
+	background: rgba(0, 96, 132, .8);
 	width: 100%;
-/*	overflow: auto;
-*/}
+	overflow: auto;
+	padding: 2em 0 0 0;
+}
 
 .about {
 	font-family: "Roboto Mono", sans-serif;
 	font-weight: 300;
 	font-size: 1.5vw;
 	color: #ffffff;
-	margin: 5% 5% 0 40%;
-	display: inline;
+	padding: 2em 3em 0 24em;
 }
 
 #aboutus h3 {
 	display: inline;
-	margin-left: 40%;
+	margin: 1em 0 0 .3em;
 }
 
 #aboutus img {
@@ -174,15 +172,55 @@ h3 {
 	float: left;
 }
 
+#contact {
+	background: url(../images/desktop/radarLandscape.png) no-repeat center bottom;
+	background-size: 100%;
+	width: 100%;
+	height: 600px;
+	overflow: auto;
+}
 
+#footer {
+	background: rgba(0, 96, 132, .8);
+	padding: 1em;
+}
 
+.copyright {
+	float: right;
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 2vw;
+	color: #ffffff;
+	margin-top: -1em;
+}
+
+#contact ul {
+	font-family: "Roboto Mono", sans-serif;
+	font-weight: 300;
+	font-size: 2vw;
+	color: #ffffff;
+	line-height: 4vw;
+	margin-left: 4.2em;
+	margin-top: 3em;
+}
+
+#contact ul label {
+  width: 170px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+#contact ul a {
+	font-style: italic;
+	text-decoration: underline;
+}
 /*.parallax {
   perspective: 1px;
-  height: 100vh;
+  height: 20vh;
   overflow-x: hidden;
   overflow-y: auto;
-}
-.parallax__layer {
+}*/
+/*.parallax__layer {
   position: absolute;
   top: 0;
   right: 0;

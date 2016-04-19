@@ -8,25 +8,25 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div id="container">
+	<div id="container" data-parallax="scroll" data-image-src="images/desktop/starfield.png">
 		<div id ="menu">
 			<nav>
 				<ul>
-					<li><a href="#">HOME</a> | </li>
-					<li><a href="#">WHAT WE DO</a> | </li>
-					<li><a href="#">OUR WORK</a> | </li>
-					<li><a href="#">ABOUT</a> | </li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="#header">HOME</a> | </li>
+					<li><a href="#whatwedo">WHAT WE DO</a> | </li>
+					<li><a href="#ourwork">OUR WORK</a> | </li>
+					<li><a href="#aboutus">ABOUT</a> | </li>
+					<li><a href="#contact">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div id="header">
-			<img id="robot" src="../images/desktop/SpaceRobot.png">
+			<img id="robot" src="images/desktop/SpaceRobot.png" />
 			<div class="logo">
 				<p class="logoTop">SPACE ROBOT</p>
 				<p class="logoBottom">DESIGN</p>
 			</div>
-			<img id="pinkPlanet" src="../images/desktop/pinkPlanet.png">
+			<img id="pinkPlanet" src="images/desktop/pinkPlanet.png" />
 			<div id="slowStarHeader"></div>
 		
 		</div>
@@ -34,7 +34,7 @@
 		<div id="whatwedo">
 			<h3>What we do</h3>
 
-			<img id="orangePlanet" src="../images/desktop/orangePlanet.png">
+			<img id="orangePlanet" src="images/desktop/orangePlanet.png" />
 
 			<p class="wedo">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
@@ -49,22 +49,25 @@
 			<h3>Our Work</h3>
 			<div id="workholder">
 					<div class="workex">
-						<img src="../images/desktop/workComp.png">
+						<a class="brat" href="path-to-image.jpg">
+							<img src="images/desktop/workComp.png" />
+						</a>
 						<h4>WORK NAME</h4>
 						<p>Short description about the work</p>
 					</div>
 					<div class="workex">
-						<img src="../images/desktop/workComp.png">
+					<a class="brat" href="path-to-image.jpg"><img src="images/desktop/workComp.png" /></a>
+						
 						<h4>WORK NAME</h4>
 						<p>Short description about the work</p>
 					</div>
 					<div class="workex">
-						<img src="../images/desktop/workComp.png">
+						<img src="images/desktop/workComp.png" />
 						<h4>WORK NAME</h4>
 						<p>Short description about the work</p>
 					</div>
 					<div class="workex">
-						<img src="../images/desktop/workComp.png">
+						<img src="images/desktop/workComp.png" />
 						<h4>WORK NAME</h4>
 						<p>Short description about the work</p>
 				</div>
@@ -73,12 +76,13 @@
 
 		<div id="aboutus">
 			<h3>About Us</h3>
-			<img src="../images/desktop/BlueGreenPlanet.png">
-			<p class="about">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-				<br />
-				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-			</p>
+			<img src="images/desktop/BlueGreenPlanet.png" />
+				<p class="about">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+				</p>
+				<p class="about">
+					voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+				</p>
 		</div>
 
 		<div id="contact">
@@ -97,13 +101,15 @@
 				<ul>
 					<li><a href="#">Terms of Use</a>|</li>
 					<li><a href="#">Privacy</a>|</li>
-					<li><a href="#">FAQ</a>|</li>
+					<li><a href="#">FAQ</a></li>
 				</ul>
 			</nav>
-			<p>&copy;Space Robot Design 2016</p>
+			<p class="copyright">&copy;Space Robot Design 2016</p>
 		</div>
 	</div>
+	<script src="js/jquery-2.1.4.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/path/to/parallax.min.js"></script>
+	<script src="js/parallax.js-1.4.2/parallax.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
